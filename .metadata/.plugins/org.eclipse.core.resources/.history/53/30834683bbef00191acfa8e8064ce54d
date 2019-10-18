@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Demo
+Bundle-SymbolicName: com.geekplus.osgi.demo
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.geekplus.osgi.demo.Activator
+Bundle-Vendor: GEEKPLUS
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: org.osgi.framework;version="1.3.0"
+Automatic-Module-Name: com.geekplus.osgi.demo
+Export-Package: com.geekplus.osgi.demo.service

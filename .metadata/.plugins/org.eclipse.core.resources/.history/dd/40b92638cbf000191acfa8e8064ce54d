@@ -1,0 +1,3 @@
+<beans xmlns="http://www.springframework.org/schema/osgi">
+<bean id="helloworld3" class="com.geekplus.osgi.helloworld.Helloworld"/>
+</beans>

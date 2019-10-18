@@ -1,0 +1,10 @@
+package com.geekplus.osgi.demo.service;
+
+public interface IHiOSGI {
+
+	/**
+	 * ªÒ»°hi String
+	 * @return String
+	 */
+	String HiOSGI();
+}

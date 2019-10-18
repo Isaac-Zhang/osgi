@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0">
+	<bean id="helloworld1"
+		class="com.geekplus.osgi.helloworld.Helloworld" />
+	<bean id="helloworld2"
+		class="com.geekplus.osgi.helloworld.Helloworld" />
+
+</blueprint>
+
+<beans xmlns="http://www.springframework.org/schema/osgi">
+<bean id="helloworld3" class="com.geekplus.osgi.helloworld.Helloworld"/>
+</beans>

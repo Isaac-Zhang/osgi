@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;beans.xml&apos; to &apos;config&apos;" description="Move &apos;beans.xml&apos; to &apos;config&apos;" destination="config" element1="OSGI-INF/blueprint/beans.xml" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1571308720850" updateReferences="true"/>
+</session>

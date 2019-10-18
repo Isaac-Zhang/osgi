@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 如果将命名空间声明更换为http://www.springframework.org/schema/osgi 会报错，不知道为什么 官网 
+	https://www.eclipse.org/gemini/blueprint/documentation/reference/3.0.0.M01/html-single/index.html#app-deploy:optional-libraries 
+	描述是支持。 -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="helloworld3"
+		class="com.geekplus.osgi.helloworld.Helloworld" />
+</beans>

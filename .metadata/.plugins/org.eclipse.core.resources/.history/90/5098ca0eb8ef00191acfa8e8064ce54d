@@ -1,0 +1,5 @@
+package com.geekplus.osgi.consumer.dto;
+
+public class UserDTO {
+
+}

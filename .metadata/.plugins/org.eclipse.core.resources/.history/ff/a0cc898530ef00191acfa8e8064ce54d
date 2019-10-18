@@ -1,0 +1,13 @@
+package com.geekplus.osgi.demo.service.impl;
+
+import com.geekplus.osgi.demo.service.IHiOSGI;
+
+public class DefaultHiOSGI implements IHiOSGI {
+
+	@Override
+	public String HiOSGI() {
+		// TODO Auto-generated method stub
+		return "Hello, eclipse OSGI";
+	}
+
+}

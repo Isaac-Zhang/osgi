@@ -1,0 +1,25 @@
+package com.geekplus.osgi.consumer;
+
+import org.osgi.framework.BundleActivator;
+import org.osgi.framework.BundleContext;
+
+//import com.geekplus.osgi.consumer.dto.UserDTO;
+import com.geekplus.osgi.demo.service.IHiOSGI;
+
+public class Activator implements BundleActivator {
+
+	@Override
+	public void start(BundleContext context) throws Exception {
+		System.out.println("Hello Consumer!!");
+
+		IHiOSGI hi = (IHiOSGI) context.getService(context.getServiceReference(IHiOSGI.class.getName()));
+		com.geekplus.osgi.demo.dto.UserDTO user = hi.HiOSGI();
+		System.out.println(user.getUser_name());
+	}
+
+	@Override
+	public void stop(BundleContext context) throws Exception {
+		System.out.println("Goodbye Consumer!!");
+	}
+
+}

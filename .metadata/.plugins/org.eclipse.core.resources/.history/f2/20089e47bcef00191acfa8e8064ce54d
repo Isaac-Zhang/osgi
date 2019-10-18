@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Consumer
+Bundle-SymbolicName: com.geekplus.osgi.consumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.geekplus.osgi.consumer.Activator
+Bundle-Vendor: GEEKPLUS
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: com.geekplus.osgi.demo.service,
+ org.osgi.framework;version="1.3.0"
+Automatic-Module-Name: com.geekplus.osgi.consumer
+Require-Bundle: com.geekplus.osgi.demo

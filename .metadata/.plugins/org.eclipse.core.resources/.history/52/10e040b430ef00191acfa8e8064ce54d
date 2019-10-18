@@ -1,0 +1,5 @@
+package com.geekplus.osgi.demo.service;
+
+public interface IHiOSGI {
+
+}
