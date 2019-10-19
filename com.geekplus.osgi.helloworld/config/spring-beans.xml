@@ -7,6 +7,6 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 	<bean id="helloworld3"
 		class="com.geekplus.osgi.helloworld.Helloworld" />
-	<bean id="helloworld3"
+	<bean id="helloworld4"
 		class="com.geekplus.osgi.helloworld.Helloworld" />
 </beans>
